@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/your_username/heart-disease-mlops.git'
+                git branch: 'main', url: 'https://github.com/Chirag-1225/heart-disease-mlops.git'
             }
         }
 
